@@ -1,6 +1,12 @@
 [
 	{
+		"id": "Flooded Strand",
 		"url": "http://www.ebay.com/itm/Flooded-Strand-Judge-Foil-NM-MTG-Promo-Magic-/331710858230?&_trksid=p2056016.m2516.l5255",
 		"regexp": "<span class=\"notranslate\" id=\"prcIsum\" itemprop=\"price\".+?>US (.+?)</span>"
+	},
+	{
+		"id": "Fire HD 6",
+		"url": "http://www.amazon.com/dp/B00KC6I06S/ref=ods_gw_d_h1_tab_al_text_D28W?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=desktop-hero-kindle-A&pf_rd_r=1J9SNP3EDY907M6CB353&pf_rd_t=36701&pf_rd_p=2302453022&pf_rd_i=desktop",
+		"regexp": "<span id=\"priceblock_dealprice\" class=\"a-size-medium a-color-price\">(.+?)</span>"
 	}
 ]

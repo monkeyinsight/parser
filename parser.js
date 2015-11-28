@@ -1,7 +1,8 @@
 var urlparser = require('url'),
 	http = require('http');
 
-function Parser(url, regexp, callback) {
+function Parser(id, url, regexp, callback) {
+	this.id = id;
 	this.path = urlparser.parse(url);
 	this.regexp = new RegExp(regexp, 'i');
 	this.callback = callback;
@@ -23,7 +24,7 @@ Parser.prototype.request = function () {
 
 		response.on('end', function () {
 			var matches = str.match(self.regexp);
-			return self.callback(matches);
+			return self.callback(matches, self.id);
 		});
 	});
 	this.req.end();
