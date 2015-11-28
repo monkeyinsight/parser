@@ -1,0 +1,6 @@
+[
+	{
+		"url": "http://www.ebay.com/itm/Flooded-Strand-Judge-Foil-NM-MTG-Promo-Magic-/331710858230?&_trksid=p2056016.m2516.l5255",
+		"regexp": "<span class=\"notranslate\" id=\"prcIsum\" itemprop=\"price\".+?>US (.+?)</span>"
+	}
+]
