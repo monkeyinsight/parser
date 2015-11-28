@@ -1,8 +1,8 @@
 {
-	"name": "parser",
-	"version": "0.0.1",
-	"author": {
-		"name": "Sergey Sekret",
-		"email": "monkeyinsight@gmail.com"
-	}
+    "name": "parser",
+    "version": "0.0.1",
+    "author": {
+        "name": "Sergey Sekret",
+        "email": "monkeyinsight@gmail.com"
+    }
 }
